@@ -1,0 +1,38 @@
+.titlestyle 
+{
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.divstyle1 
+{
+    width: 40px;
+    height: 50px;
+    border-style: solid;
+    background-color: aqua;
+}
+
+* 
+{
+    /*  border-style:dashed;
+            border-width:5px;
+            border-color:deeppink;*/
+}
+
+div 
+{
+    /* border-style: dashed;
+            border-width: 5px;
+            border-color: deeppink;*/
+}
+
+span 
+{
+}
+
+#div1 
+{
+    background-color: dodgerblue;
+    height: 30px
+}
