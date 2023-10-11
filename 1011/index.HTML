@@ -1,27 +1,99 @@
 <html>
 <head>
     <title> MIS 3033 Oct 11 Branagan Flasch</title>
-</head>
-<style>
-    #maindiv
-    {
-        background-color:aliceblue;
-        width:800px;
-        height:500px;
-        display:flex;
-        flex-direction:row;
-    }
-    .d1
-    {
-        width:100px;
-        height:120px;
-        margin-left:10px;
-        margin-top:10px;
-        background-color:dodgerblue;
+    <style>
 
-    }
-</style>
+        #maindiv 
+        {
+            background-color: aliceblue;
+            width: 800px;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-end;
+            align-content:flex-end;
+            margin-top:50px;
+        }
+
+        .d1 
+        {
+            width: 100px;
+            height: 120px;
+            margin-left: 10px;
+            margin-top: 10px;
+            background-color: dodgerblue;
+        }
+
+        #webdiv 
+        {
+            background-color: pink;
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #footerdiv 
+        {
+            width:1000px;
+            height:50px;
+            background-color:aliceblue;
+            display: flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items: center;
+            border-radius:5px;
+        }
+        #bodydiv
+        {
+            background-color: mediumpurple;
+           display:flex;
+           flex-direction: row; 
+         
+
+        }
+        #left
+        {
+            background-color:lightcoral;
+            width:480px;
+        }
+        #right 
+        {
+            background-color: lightskyblue;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            border-radius: 10px;
+            border-width:2px;
+            border-style:solid;
+            border-color:darkgray;
+            width: 480px;
+        }
+    </style>
+</head>
+
 <body>
+    <div id="webdiv">
+        This is web
+        <div id="bodydiv">
+            
+            <div id="left">
+                left
+            </div>
+            <div id="right">
+                <div style="color:dodgerblue; font-size:20pt; font-weight:bold;">
+                    I love MIS3033
+                </div>
+                <div>
+                    <img style="width:400px;"src="b.svg"/>
+                </div>
+            </div>
+        </div>
+        <div id="footerdiv">
+            <span style="color:darkgrey">Designed and Developed by Branagan Flasch MIS 3033 EXAM 2</span>
+        </div>
+    </div>
+
+   
     <div id="maindiv">
         <div class="d1">div1 </div>
         <div class="d1">div2</div>
