@@ -3,31 +3,12 @@
     <title> MIS 3033 Oct 11 Branagan Flasch</title>
     <style>
 
-        #maindiv 
-        {
-            background-color: aliceblue;
-            width: 800px;
-            height: 500px;
-            display: flex;
-            flex-direction: row;
-            justify-content:flex-end;
-            align-content:flex-end;
-            margin-top:50px;
-        }
-
-        .d1 
-        {
-            width: 100px;
-            height: 120px;
-            margin-left: 10px;
-            margin-top: 10px;
-            background-color: dodgerblue;
-        }
-
+      
         #webdiv 
         {
-            background-color: pink;
+           
             width: 1000px;
+      
             margin-left: auto;
             margin-right: auto;
         }
@@ -45,20 +26,19 @@
         }
         #bodydiv
         {
-            background-color: mediumpurple;
-           display:flex;
-           flex-direction: row; 
+            
+            display:flex;
+            flex-direction: row; 
          
-
         }
         #left
         {
-            background-color:lightcoral;
+            
             width:480px;
         }
         #right 
         {
-            background-color: lightskyblue;
+            
             display: flex;
             flex-direction: column;
             align-items:center;
@@ -68,16 +48,78 @@
             border-color:darkgray;
             width: 480px;
         }
+        #headdiv
+        {
+            width:1000px;
+            height:100px;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            
+        }
+        #prodiv
+        {
+            font-size:30pt;
+            color:dodgerblue;
+            font-weight:bold;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+        }
+        #Top 
+        {
+            
+            border-radius: 10px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: darkgray;
+            width: 480px;
+            height:130px;
+        }
+        #Bottom {
+            
+            border-radius: 10px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: darkgray;
+            width: 480px;
+            height:130px;
+        }
+
     </style>
 </head>
 
 <body>
     <div id="webdiv">
-        This is web
+        <div id="headdiv">
+            <div id="prodiv">
+            I LOVE PROGRAMMING!
+            </div> 
+            <div>
+                <img style="height:100px;" src="a.svg" />
+            </div>
+        </div>
         <div id="bodydiv">
-            
             <div id="left">
-                left
+                <div id="Top">
+                    <span style="font-size:20px; font-weight:bold; background-color:lightskyblue; border-radius:5px;">What I already learned:</span>
+                    <ul>
+                        <li>C#</li>
+                        <li>C# Entity Framework</li>
+                        <li>Database Sqlite</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+                <div id="Bottom">
+                    <span style="font-size:20px; font-weight:bold;">What I already learned:</span>
+                    <ol>
+                        <li>JavaScript</li>
+                        <li>BootStrap</li>
+                        <li>ASP.NET MVC</li>
+                        <li>Web REST API</li>
+                    </ol>
+                </div>
             </div>
             <div id="right">
                 <div style="color:dodgerblue; font-size:20pt; font-weight:bold;">
@@ -91,13 +133,6 @@
         <div id="footerdiv">
             <span style="color:darkgrey">Designed and Developed by Branagan Flasch MIS 3033 EXAM 2</span>
         </div>
-    </div>
-
-   
-    <div id="maindiv">
-        <div class="d1">div1 </div>
-        <div class="d1">div2</div>
-        <div class="d1">div3</div>
     </div>
 </body>
 </html>
