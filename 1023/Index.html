@@ -16,14 +16,24 @@
         }
         #left 
         {
-            width: 480px;
-            padding-top: 20px;
+            width: 400px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+           /* padding-top: 20px;
+            text-align: center;*/
+        }
+        #right
+        {
+            width:800px;
         }
         #top 
-        {   
+        {
             height: 200px;
             width:625px;
-            align-items:center;
+          
+            
         }
         #bottom 
         {
@@ -31,23 +41,57 @@
             flex-direction: row;
             height: 150px;
         }
-        
-        
+        #main
+        {
+   
+    width:1200px;
+    margin-left:auto;
+    margin-right: auto;
+        }
+        #links
+        {
 
-
+        }
+       
 
     </style>
 </head>
 <body>
+    <div id="main">
+
+    
     <div style="color:dodgerblue; font-size:20pt; font-weight:bold;">Branagan Flasch's Website</div>
     
     <div id="body">
         <div id="left">
-            <img src="head2.png" style="width:100px;border-radius:50%;" />
+            <div>
+                <img src="head2.png" style="width:200px;border-radius:50%;" />
+            </div>
+            <div style="font-size:30px;">
+                Branagan Flasch
+            </div>
+            <div style="color:dimgrey;">Student in Management Information System</div>
+            <div style="color:dimgrey;">The University of Oklahoma</div>
+            <div id="links">
+                <a href="mailto:xinglong.ju@ou.edu" target="_blank">
+                    <img src="email.png" style="width:30px;" />
+                   </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="linkedin.png" style="width:30px;" />
+                   </a>
+                <a href="https://twitter.com" target="_blank">
+                   <img src="twitter.png" style="width:30px;" />
+                   </a>
+                <a href="https://www.instagram.com" target="_blank">
+                     <img src="instagram.png" style="width:30px;" />
+                   </a>
+              
+            </div>
+            <!--<img src="head2.png" style="width:200px;border-radius:50%; height:150px;" />
             <br />
-            <span style="text-align: center;">Branagan Flasch</span>
+            <span style="text-align: center; font-weight:bold; font-size:30px;">Branagan Flasch</span>
             <br />
-            <span style="color: dimgrey; text-align: center;">
+            <span style="color: dimgrey; text-align: center; font-size:20px;">
                 Student in Management Information System
                 <br />
                 The University of Oklahoma
@@ -56,7 +100,7 @@
             <img src="email.png" style="width:20px;" />
             <img src="linkedin.png" style="width:20px;" />
             <img src="twitter.png" style="width:20px;" />
-            <img src="instagram.png" style="width:20px;" />
+            <img src="instagram.png" style="width:20px;" />-->
         </div>
 
         <div id="right">
@@ -73,7 +117,7 @@
                      For more information, please refer to my CV. 
             </div>
             <div id="bottom">
-                <div style="width:250px;">
+                <div>
                     <span style="font-weight:bold; font-size:30px;">
                     Interests
                     </span>
@@ -86,17 +130,19 @@
                     </ol>
                 </div>
                
-                <div style="width:375px;">
+                <div>
                     <span style="font-weight:bold; font-size:30px;">
                         Education
                     </span>
                     <ul>
                         <li>
                             M.S. in Management Information Systems, 2024
+                            <br />
                             The University of Oklahoma
                         </li>
                         <li>
                             B.E. in Management Information Systems, 2022
+                            <br />
                             The University of Oklahoma
                         </li>
                     </ul>
@@ -107,9 +153,9 @@
     </div>
 
     <div style="background-color:#ededed;">
-        <span style="font-weight:bold;">Recent News</span>
-        <br />
-        <ul>
+        <span style="font-weight:bold; font-size:30px;">Recent News</span>
+
+        <ul style="margin-bottom:0px;">
             <li>Learning C# Wed Application Design</li>
             <li> Learing C# WPF</li>
         </ul>
@@ -118,6 +164,9 @@
     <div id="footer" style="color:dimgrey;">
         Designed and Published by Branagan Flasch
     </div>
+
+
+        </div>
 
 </body>
 </html>
