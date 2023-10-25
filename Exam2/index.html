@@ -1,15 +1,182 @@
 <html>
 <head>
-    <title>[] Branagan Flasch Exam 2 MIS3033</title>
+    <title>[STNG] Branagan Flasch Exam 2 MIS3033</title>
+    <style>
+        #main
+        {
+            width:800px;
+
+        }
+        #top
+        {
+            display:flex;
+            flex-direction:row;
+            text-align:center;
+            align-items:center;
+            
+           
+        }
+        .border
+        {
+            border-style:solid;
+            border-width:1px;
+            border-color:lightgrey;
+            border-radius:5px
+        }
+        #footer
+        {
+            height:60px;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+           padding-right:50px;
+        }
+        #text 
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #core 
+        {
+            display: flex;
+            flex-direction: row;
+           
+        }
+        #head
+        {
+            display:flex;
+            flex-direction:row;
+            
+        }
+        #body
+        {
+            display:flex;
+            flex-direction:row;
+        }
+        .title
+        {
+            text-transform:uppercase;
+            background-color:lightskyblue;
+            border-radius:5px;
+        }
+        #pic
+       
+        {
+display:flex;
+flex-direction:row;
+justify-content:center;
+
+        }
+        #name
+        {
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+        }
+        #picture 
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #linked 
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #first 
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #code 
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+       
+       
+
+
+    </style>
 </head>
 <body>
-    <img src="head2.png" style="height:100px;"  />
-    <img src="head1.png" style="height:100px;"  />
-    <img src="linkedin.png" style="height:100px;"  />
-    <img src="html.svg" style="height:100px;"  />
-    <img src="css.svg" style="height:100px;"  />
-    <img src="javascript.svg" style="height:100px;"  />
-    <img src="sqlite.svg" style="height:100px;"  />
-    <img src="logo.svg" style="height:100px;"  />
+    <div id="main">
+        <div id="top">
+            <div id="first" class="border" style="width:200px; height:70px;">MIS 3033 Exam 2 <br /> Branagan Flasch
+            
+            </div>
+            <div id="code" class="border" style="width:200px; height:70px;">[STNG]</div>
+        </div>
+
+        <div id="head" class="border" style="height:80px;">
+         
+            <div id="picture">
+            <img src="head2.png" style="height:60px; border-radius:50%;" />
+            </div>
+            <div id="name">
+                Branagan Flasch
+                <br />
+                MIS Student
+            </div>
+            <div style="width:15px;">
+                
+            </div>
+            <div id="linked">
+               
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="linkedin.png" style="width:30px;" />
+                </a>
+            </div>
+        </div>
+
+        <div id="body">
+            <div id="left">
+                <div class="border" style="width:510px;height:110px;">
+                    <span class="title">ABOUT ME:</span>
+                    <br />
+                    I am a MIS student. I like programming and I am good at C#. I leaned Entity Framework for Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC Dynamic Web App development and Web API development.
+                </div>
+                <div class="border" style="width:510px; height:160px">
+                    <span class="title">ACHIEVEMENTS</span>
+                    <br />
+                    
+                    <br />
+                    <div id="pic">
+                        <img src="html.svg" style="height:100px;" class="border" />
+                        <img src="css.svg" style="height:100px;" class="border" />
+                        <img src="javascript.svg" style="height:100px;" class="border" />
+                    </div>
+                </div>
+            </div>
+          
+            <div id="right" class="border" style="width:280px;">
+                <span class="title">REcent news:</span>
+                <ul>
+                    <li> Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                    <li>
+                        Learned
+                        <img src="sqlite.svg" style="height:40px;" />
+                    </li>
+                </ul>
+            
+            </div>
+        </div>
+     
+        <div id="footer" class="border">
+            <div id="text" style="color: grey; font-weight: bold; font-size: 20px; text-align: center; ">
+                Developed by Branagan Flasch for MIS 3033 Exam 2
+            </div> 
+            <div id="core">
+                <img src="logo.svg" style="height:50px;" />
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
